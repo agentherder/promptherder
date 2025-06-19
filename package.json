@@ -1,6 +1,6 @@
 {
   "name": "@agentherder/promptherder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI tool for managing and transforming AI prompt templates",
   "bin": {
     "pherder": "dist/bin/cli.js"
