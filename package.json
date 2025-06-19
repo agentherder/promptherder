@@ -1,6 +1,6 @@
 {
   "name": "@agentherder/promptherder",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CLI tool for managing and transforming AI prompt templates",
   "bin": {
     "pherder": "dist/bin/cli.js"
@@ -23,6 +23,12 @@
   "author": "Warren Whipple",
   "license": "MIT",
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.0.3",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0"
   }
 }
