@@ -1,0 +1,22 @@
+# Build output
+dist/
+
+# Runtime output
+*.log
+*.tsbuildinfo
+
+# Node modules (even though pnpm uses symlinks, some tools might write here)
+node_modules/
+
+# System files
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# IDE/editor noise
+.vscode/
+.idea/
+
+# Optional: pnpm-specific cache
+.pnpm-debug.log

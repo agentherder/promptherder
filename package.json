@@ -1,0 +1,28 @@
+{
+  "name": "@agentherder/promptherder",
+  "version": "0.1.0",
+  "description": "CLI tool for managing and transforming AI prompt templates",
+  "bin": {
+    "pherder": "dist/bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/bin/cli.js",
+    "prepare": "pnpm build"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "ai",
+    "prompts",
+    "cli",
+    "herder"
+  ],
+  "author": "Warren Whipple",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
