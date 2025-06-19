@@ -3,7 +3,7 @@ import { Command } from "commander";
 import { installCursorRules } from "../src/commands/install-rules-cursor";
 
 const program = new Command();
-program.name("pherder").description("Prompt Herder CLI").version("0.2.0");
+program.name("pherder").description("Prompt Herder CLI").version("0.2.1");
 
 program
   .command("install-rules <agent>")
